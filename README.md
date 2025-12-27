@@ -15,4 +15,10 @@ This is not a real roadmap, just me jotting down ideas for what I want to add ne
   - [ ] todo.txt 
   - [ ] Sync via Syncthing
 - [ ] Theming set up via config file
-- [ ] 
+
+Ideas:
+- Integrate `scrcpy` with a cool phone widget
+- To-Do widget synced between phone/laptop/PC
+- Theme switching?
+- Colour picker like powertools
+- Clipboard history

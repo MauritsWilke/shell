@@ -13,26 +13,26 @@ PanelWindow {
 
   implicitHeight: 30
 
-  Text {
-    id: power
+  // Text {
+  //   id: power
 
-    anchors {
-      left: parent
-      verticalCenter: parent.verticalCenter
-    }
+  //   anchors {
+  //     left: parent
+  //     verticalCenter: parent.verticalCenter
+  //   }
 
 
-    text: {
-      switch (UPower.displayDevice.state) {
-          case UPowerDeviceState.Charging:
-              return "⚡ " + UPower.displayDevice.percentage * 100 + "%"
-          case UPowerDeviceState.Discharging:
-              return UPower.displayDevice.percentage * 100 + "%"
-          case UPowerDeviceState.FullyCharged:
-              return "✓ 100%"
-      }
-    }
-  }
+  //   text: {
+  //     switch (UPower.displayDevice.state) {
+  //         case UPowerDeviceState.Charging:
+  //             return "⚡ " + UPower.displayDevice.percentage * 100 + "%"
+  //         case UPowerDeviceState.Discharging:
+  //             return UPower.displayDevice.percentage * 100 + "%"
+  //         case UPowerDeviceState.FullyCharged:
+  //             return "✓ 100%"
+  //     }
+  //   }
+  // }
   
   Item {
     anchors.centerIn: parent
@@ -40,10 +40,7 @@ PanelWindow {
   }
 
   Item {
-    anchors {
-      left: parent
-      verticalCenter: parent.verticalCenter
-    }
+    anchors.centerIn: parent
 
     Battery { }
   }
