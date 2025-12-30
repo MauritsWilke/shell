@@ -24,4 +24,6 @@ PanelWindow {
     implicitHeight: 30
 
     Clock {}
+
+    Battery {}
 }
