@@ -1,6 +1,7 @@
 import Quickshell.Widgets
 import Quickshell.Io
 import QtQuick
+import qs.Common
 
 Rectangle {
     function getTime() {
@@ -10,7 +11,7 @@ Rectangle {
     height: parent.height
     anchors.centerIn: parent
 
-    color: "red"
+    color: Theme.background0
 
     radius: 6
 
@@ -22,6 +23,8 @@ Rectangle {
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         anchors.fill: parent
+
+        color: Theme.foreground
 
         text: getTime()
 

@@ -1,0 +1,69 @@
+[dark]
+foreground = "#D3C6AA"
+red = "#E67E80"
+yellow = "#DBBC7F"
+green = "#A7C080"
+blue = "#7FBBB3"
+purple = "#D699B6"
+aqua = "#83C092"
+orange = "#E69875"
+
+[dark.statusline]
+s1 = "#A7C080"
+s2 = "#D3C6AA"
+s3 = "#E67E80"
+
+[dark.grey]
+grey0 = "#7A8478"
+grey1 = "#859289"
+grey2 = "#9DA9A0"
+
+[dark.background]
+dim = "#1E2326"
+b0 = "#272E33"
+b1 = "#2E383C"
+b2 = "#374145"
+b3 = "#414B50"
+b4 = "#495156"
+b5 = "#4F5B58"
+red = "#493B40"
+yellow = "#45443C"
+green = "#3C4841"
+blue = "#384B55"
+purple = "#463F48"
+visual = "#4C3743"
+
+[light]
+foreground = "#5C6A72"
+red = "#F85552"
+yellow = "#DFA000"
+green = "#8DA101"
+blue = "#3A94C5"
+purple = "#DF69BA"
+aqua = "#35A77C"
+orange = "#F57D26"
+
+[light.statusline]
+s1 = "#93B259"
+s2 = "#708089"
+s3 = "#E66868"
+
+[light.grey]
+grey0 = "#A6B0A0"
+grey1 = "#939F91"
+grey2 = "#829181"
+
+[light.background]
+dim = "#F2EFDF"
+b0 = "#FFFBEF"
+b1 = "#F8F5E4"
+b2 = "#F2EFDF"
+b3 = "#EDEADA"
+b4 = "#E8E5D5"
+b5 = "#BEC5B2"
+red = "#FFE7DE"
+yellow = "#FEF2D5"
+green = "#F3F5D9"
+blue = "#ECF5ED"
+purple = "#FCECED"
+visual = "#F0F2D4"
